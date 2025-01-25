@@ -1,5 +1,5 @@
 import React from 'react';
-import Amplify from 'aws-amplify';
+import { Amplify } from 'aws-amplify';
 import awsconfig from './aws-exports';  // This is the file you generated earlier
 import { withAuthenticator } from '@aws-amplify/ui-react';
 
